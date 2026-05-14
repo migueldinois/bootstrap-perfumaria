@@ -26,22 +26,47 @@
 .footer_main {
     display: flex;
     justify-content: center;
-    padding: 15px ;
+    padding: 15px 0;
     text-align: center;
-    width: 100%;
+    border-top: 1px solid #eee;
     background-color: #bdf0e7;
+    margin-top: auto;
 }
+
 
 .icons__footer {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 20px;
+    
 }
+
+.icons__footer i {
+    font-size: 1.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.
+
+
 
 
 .card__galery{
     padding: 30px;
 
 
+}
+
+
+.btn-primary {
+    background-color: #bdf0e7;
+    border-color: #bdf0e7;
+    color: rgb(44, 44, 44);
+}
+
+.btn-primary:hover {
+    background-color: #b5e6dd;
+    border-color: #bdf0e7;
+    color: #000; 
 }

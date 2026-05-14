@@ -15,6 +15,7 @@ Tarefas:
 - Coletando imagens de paisagem para colocar no carrossel do hero section
 - Criacao de banners para colocar no carrossel hero
 - Criação da pagina de contato
+- Iniciando javascript e integracao com sweetalert2
 
 
 ------- Olivia -------
@@ -23,17 +24,23 @@ Tarefas:
 - Criando uma pasta de perfumes dentro do img
 - Responsavel por criar o header utilizando componentes no Boostrap e alterando algumas coisas
 - Mudando a cor do header no css
+- ajudando a mudar algumas coisas no menu de email
 
 ------- Ana Laura ------- 
 
 - Fazendo as imagens dos produtos na IA
 - Organizando links e imagens no tldraw
-- Criando o footer(classes dos icones)
+- Criando o footer
+- Criando class para os icones
+- Fazendo css para o footer/class
+- Alinhando textos e icons no footer
 
 ------- Carlos -------
 
 - Criação de containers de cada seção do site 
 - Estruturação com bootstrap 
+- Criação pagina galeria perfumes
+- Definindo classes
 - Criação de layout responsivo e formatação do css com Boostrap 
 
 

@@ -35,10 +35,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Início</a>
+                            <a class="nav-link" href="#hero">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fragrâncias</a>
+                            <a class="nav-link" href="#gallery-perfume">Fragrâncias</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -137,37 +137,55 @@
             <div class="gallery__container">
                 <h1 class="text-center bm-4 fw-light p-xl-5 text-uppercase">Galeria de Perfumes</h1>
 
-                <div class="card__galery " style="width: 30rem;  ">
 
-                    <img src="./assets/img/perfumes/aura_noturna_.png" class="card-img-top img-fluid " alt="Perfume 01">
-                    <div class="card-body">
-                        <h5 class="card-title">NOME</h5>
-                        <p class="card-text">R$ </p>
+                <div class="container py-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-cart-dash-fill" viewBox="0 0 16 16 ">
-                            <path
-                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1" />
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-star-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                        </svg>
+                        <div class="col">
+                            <div class="card h-100 border border-2 rounded-4 shadow-sm overflow-hidden">
+                                <div class="img-container">
+                                    <img src="./assets/img/perfumes/aura_noturna_.png"
+                                        class="card-img-top custom-card-img" alt="Aura Noturna">
+                                </div>
+                                <div class="card-body p-4 text-center">
+                                    <h5 class="card-title fw-bold">Aura Noturna</h5>
+                                    <p class="card-text text-muted small">Uma fragrância intensa e marcante para muita
+                                        aura..</p>
+                                    <p class="card-text fs-5 fw-bold">R$ 299,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100 border border-2 rounded-4 shadow-sm overflow-hidden">
+                                <div class="img-container">
+                                    <img src="./assets/img/perfumes/aura_pink_caixa.png"
+                                        class="card-img-top custom-card-img" alt="Aura Solar">
+                                </div>
+                                <div class="card-body p-4 text-center">
+                                    <h5 class="card-title fw-bold">Aura Pink</h5>
+                                    <p class="card-text text-muted small">Leveza e frescor para o dia a dia.</p>
+                                    <p class="card-text fs-5 fw-bold">R$ 259,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100 border border-2 rounded-4 shadow-sm overflow-hidden">
+                                <div class="img-container">
+                                    <img src="./assets/img/perfumes/aura_maritima.png"
+                                        class="card-img-top custom-card-img" alt="Aura Mystic">
+                                </div>
+                                <div class="card-body p-4 text-center">
+                                    <h5 class="card-title fw-bold">Aura Maritima</h5>
+                                    <p class="card-text text-muted small">Notas enigmáticas e sofisticadas.</p>
+                                    <p class="card-text fs-5 fw-bold">R$ 319,00</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
 
 
         </section>
@@ -184,7 +202,7 @@
                     </div>
 
                     <div class="form__container col-12 col-md-5 col-lg-4">
-                        <form>
+                        <form class="contact__form">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Seu email</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
@@ -199,7 +217,7 @@
                                 <label class="form-check-label" for="exampleCheck1">Quero receber avisos e
                                     promoções</label>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100">Enviar Chamado</button>
+                            <button type="submit" class="btn btn-primary w-100 btnEnviarChamado">Enviar Chamado</button>
                         </form>
                     </div>
 
@@ -230,8 +248,13 @@
 
 
 
+
+
     <!-- SweetAlert2 JavaScript via CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.18.0/dist/sweetalert2.all.min.js" defer></script>
+
+    <!-- script nativo -->
+    <script src="./assets/js/index.js"></script>
 
     <!-- Bootstrap JS via CDN JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
