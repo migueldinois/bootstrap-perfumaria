@@ -14,57 +14,57 @@
 
     <!-- SweetAlert2 CSS via CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.18.0/dist/sweetalert2.min.css">
+
+    <!-- CSS Nativo -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- Header / Nav bar -->
+    <header class="header-aura">
+        <nav class="navbar navbar-expand-lg navbar-ligth">
+            <div class="container">
+                <a class="navbar-brand brand-aura" href="#">AURA</a>
 
-    <header>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="header__container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">AURA</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Coleções</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fragrâncias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Coleções
+                            </a>
+                            <ul class="dropdown-menu shadow-sm">
+                                <li><a class="dropdown-item" href="#">Destaques</a></li>
+                                <li><a class="dropdown-item" href="#">Edição Limitada</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Contato</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex search-aura" role="search">
+                        <input class="form-control h-25" type="search" placeholder="Buscar perfume..."
+                            aria-label="Search">
+                        <button class="btn btn-search" type="submit">
+                            <i class="bi bi-search"></i> Pesquisar
+                        </button>
+                    </form>
                 </div>
-            </nav>
-        </div>
-
+            </div>
+        </nav>
     </header>
 
 
@@ -72,20 +72,28 @@
 
         <!-- Hero section -->
 
-        <section class="hero__main" id="hero">
-            <div class="hero__container">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+        <section class="hero__main py-4" id="hero">
+            <div class="container hero__container">
+                <div id="carouselExampleAutoplaying" class="carousel slide w-100 mx-auto" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded shadow">
+
                         <div class="carousel-item active">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./assets/img/banners/aura_maritima_banner.png"
+                                class="d-block w-100 object-fit-cover carousel-item__image" alt="Aura Maritima banner">
                         </div>
+
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./assets/img/banners/aura_noturna_banner.png"
+                                class="d-block w-100 object-fit-cover carousel-item__image" alt="Aura Noturna banner">
                         </div>
+
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./assets/img/banners/aura_pink_banner.png"
+                                class="d-block w-100 object-fit-cover carousel-item__image" alt="Aura Pink Banner">
                         </div>
+
                     </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -100,22 +108,24 @@
             </div>
         </section>
 
+
         <!-- Cards de apresentação (destaques) -->
 
         <section class="cards__main">
             <div class="cards__container container">
-                <h1 class="text-center bm-4">Fragâncias em Destaques</h1>
+                <h1 class="text-center bm-4 fw-light p-xl-5 text-uppercase">Fragâncias em Destaques</h1>
 
                 <!-- Destaque 1 -->
                 <div class="row row-cols-1 row-cols-sm-2 g-4">
-                    <div class="cards-perfumes__item col-sm ">
-                        <img class="card__image" src="./assets/img/perfumes/aura_maritima.png"
-                            alt="Perfume Aura Maritima">
+                    <div class="cards-perfumes__item col-sm">
+
+                        <img class="card__image img-fluid img-thumbnail p-xl-5 h-75 "
+                            src="./assets/img/perfumes/aura_maritima.png" alt="Perfume Aura Maritima">
                     </div>
                     <!-- Destaque 2  -->
                     <div class="cards-perfumes__item col-sm">
-                        <img class="card__image" src="./assets/img/perfumes/aura_noturna_.png"
-                            alt="Perfume Aura Noturna">
+                        <img class="card__image img-fluid img-thumbnail p-xl-5 h-75"
+                            src="./assets/img/perfumes/aura_noturna_.png" alt="Perfume Aura Noturna">
                     </div>
                 </div>
             </div>
@@ -125,16 +135,79 @@
         <section class="gallery__main" id="gallery-perfume">
 
             <div class="gallery__container">
+                <h1 class="text-center bm-4 fw-light p-xl-5 text-uppercase">Galeria de Perfumes</h1>
+
+                <div class="card__galery " style="width: 30rem;  ">
+
+                    <img src="./assets/img/perfumes/aura_noturna_.png" class="card-img-top img-fluid " alt="Perfume 01">
+                    <div class="card-body">
+                        <h5 class="card-title">NOME</h5>
+                        <p class="card-text">R$ </p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart-dash-fill" viewBox="0 0 16 16 ">
+                            <path
+                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+
+                    </div>
+                </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
         </section>
 
         <!-- Formulario de contato -->
         <section class="contact_main" id="contact">
+            <div class="contact__container container py-5">
 
-            <div class="contact__container">
+                <div class="row align-items-center justify-content-center g-4">
+
+                    <div class="contact__image col-12 col-md-6 text-center">
+                        <img src="/assets/img/mulher_usando_perfumes_perto_de_outras_fragrancias_ciume_de_perfume.webp"
+                            alt="Imagem da atendente da aura perfumaria" class="img-fluid rounded shadow">
+                    </div>
+
+                    <div class="form__container col-12 col-md-5 col-lg-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Seu email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputName1" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="exampleInputName1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Quero receber avisos e
+                                    promoções</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Chamado</button>
+                        </form>
+                    </div>
+
+                </div>
+
             </div>
-
         </section>
+
 
 
     </main>
@@ -142,7 +215,13 @@
     <!-- Rodapé -->
     <footer class="footer_main" id="footer">
         <div class="footer__container"></div>
-        <i class="bi bi-instagram"></i>
+        <p>2026 © AURA — Elegância em cada fragrância.</p>
+        <div class="icons__footer">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-facebook"></i>
+        </div>
+
 
     </footer>
 

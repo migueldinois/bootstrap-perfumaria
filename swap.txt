@@ -13,21 +13,27 @@ Tarefas:
 - Criação da estrutura grid de destaques, aplicando alt e source da imagem
 - Responsavel por criar a hero section utilizando componentes do Boostrap
 - Coletando imagens de paisagem para colocar no carrossel do hero section
+- Criacao de banners para colocar no carrossel hero
+- Criação da pagina de contato
+
 
 ------- Olivia -------
 
 - Pesquisando cores para o projeto
 - Criando uma pasta de perfumes dentro do img
-- Responsavel por criar o header utilizando componentes no Boostrap
+- Responsavel por criar o header utilizando componentes no Boostrap e alterando algumas coisas
+- Mudando a cor do header no css
 
 ------- Ana Laura ------- 
 
 - Fazendo as imagens dos produtos na IA
 - Organizando links e imagens no tldraw
+- Criando o footer(classes dos icones)
 
 ------- Carlos -------
 
 - Criação de containers de cada seção do site 
--Estruturação com bootstrap 
+- Estruturação com bootstrap 
+- Criação de layout responsivo e formatação do css com Boostrap 
 
 
