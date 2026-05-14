@@ -1,0 +1,27 @@
+Organização
+Aura Perfumaria
+
+
+Tarefas:
+
+
+
+
+------ Miguel -------
+
+- Estruturação HTML semantico e marcação de código
+
+------- Olivia -------
+
+- Pesquisando cores para o projeto
+- Criando uma pagina de perfumes dentro do img
+
+------- Ana Laura ------- 
+
+- Fazendo as imagens dos produtos na IA
+- Organizando links e imagens no tldraw
+
+
+------- Carlos -------
+
+- Criação de containers de cada seção do site 
