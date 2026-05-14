@@ -1,27 +1,33 @@
 Organização
 Aura Perfumaria
 
+Repositório:
+https://github.com/migueldinois/bootstrap-perfumaria
+
 
 Tarefas:
-
-
-
 
 ------ Miguel -------
 
 - Estruturação HTML semantico e marcação de código
+- Criação da estrutura grid de destaques, aplicando alt e source da imagem
+- Responsavel por criar a hero section utilizando componentes do Boostrap
+- Coletando imagens de paisagem para colocar no carrossel do hero section
 
 ------- Olivia -------
 
 - Pesquisando cores para o projeto
-- Criando uma pagina de perfumes dentro do img
+- Criando uma pasta de perfumes dentro do img
+- Responsavel por criar o header utilizando componentes no Boostrap
 
 ------- Ana Laura ------- 
 
 - Fazendo as imagens dos produtos na IA
 - Organizando links e imagens no tldraw
 
-
 ------- Carlos -------
 
 - Criação de containers de cada seção do site 
+-Estruturação com bootstrap 
+
+
